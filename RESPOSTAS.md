@@ -4,8 +4,8 @@
 
 | Papel | Nome completo | Usuário do GitHub |
 |---|---|---|
-| Integrante 1 (dono do fork) | | |
-| Integrante 2 (colaborador) | | |
+| Integrante 1 (dono do fork) | Vinicius Beleza Vidal | ViniciusBeleza |
+| Integrante 2 (colaborador) | João Fernando Albuquerque| Joaofer984 |
 
 ## Explicação da solução
 

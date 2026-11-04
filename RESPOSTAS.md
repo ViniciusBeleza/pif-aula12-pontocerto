@@ -32,7 +32,7 @@ campanhaMultiplicadora 5 devolve uma função, não um número: uma regra que mu
 | 1 | aplicaRegraDuasVezes | A assinatura dizia Int -> Int -> Int, mas regra é usada como função. Faltavam parênteses no argumento que é função. | Erro de tipo: regra foi usada como função, mas o tipo dela é Int (não é uma função). | aplicaRegraDuasVezes :: (Int -> Int) -> Int -> Int |
 | 2 | fimDeSemana | A lambda usava => em vez da seta ->. | Erro de sintaxe (parse error) em =>. | fimDeSemana = \p -> p * 4 |
 | 3 | natal | campanhaBonus sozinha é uma fábrica (Int -> (Int -> Int)), mas natal foi declarada como Int -> Int. Faltou aplicar a fábrica ao bônus. | Erro de tipo: esperava Int, mas o resultado era Int -> Int (a função foi usada sem o argumento do bônus).| natal = campanhaBonus 300 |
-| 4 | | | | |
+| 4 | promocaoAtual | pontosEmDobro 100 já aplica a regra e devolve um Int, mas promocaoAtual deve ser a própria função.| Erro de tipo: esperava Int -> Int, mas recebeu Int.| promocaoAtual = pontosEmDobro |
 
 ## Desafio 6 — Haskell × C
 
